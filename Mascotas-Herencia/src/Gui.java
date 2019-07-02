@@ -5,7 +5,7 @@ public class Gui {
 	        JOptionPane.showMessageDialog(null, mensaje);
 	    }
 	    // 2do parametro: se muestra en el cuerpo de la ventana
-	 	// 3er parametro: El mensaje que se mostrará en la barra de titulo.
+	 	// 3er parametro: El mensaje que se mostrara en la barra de titulo.
 	    // 4to parametro: representa un icono en JOptionPane
 	    public static void mostrarCartel(Object mensaje, String titulo, int tipoDeMensaje)
 	    {

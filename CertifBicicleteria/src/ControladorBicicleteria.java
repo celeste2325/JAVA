@@ -15,7 +15,7 @@ public class ControladorBicicleteria {
 	       bicicleteria.addBicicleta(biciOrbeaAqua);
 	       bicicleteria.addBicicleta(biciOrbeaAvant);
 	       
-	       //devuelve modelo y año de, bicicleta con el numero de serie H30
+	       //devuelve modelo, year de, bicicleta con el numero de serie H30
 	       bicicleteria.buscarBicicleta("H30");
 	       
 	    }

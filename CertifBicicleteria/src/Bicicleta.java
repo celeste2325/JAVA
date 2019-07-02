@@ -2,13 +2,13 @@
 public class Bicicleta {
 	 private String nroDeSerie;
 	    private String modelo;
-	    private int año;
+	    private int year;
 	    private float precio;
 
-	    public Bicicleta(String nroDeSerie, String modelo, int año) {
+	    public Bicicleta(String nroDeSerie, String modelo, int year) {
 	        this.nroDeSerie = nroDeSerie;
 	        this.modelo = modelo;
-	        this.año = año;
+	        this.year = year;
 	    }
 
 	    public String getNroDeSerie() {
@@ -26,7 +26,7 @@ public class Bicicleta {
 	    //revisar
 	    @Override
 	    public String toString() {
-	        return "Modelo = " + modelo + ", año = " + año ;
+	        return "Modelo = " + modelo + ", year = " + year ;
 	    }
 	    
 	    
